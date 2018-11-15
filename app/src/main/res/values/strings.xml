@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ViewToPdf</string>
+    <string name="text_string">样品库的展示分留样库所在楼号，留样库房，留样货架号，货架内的单元格。通过平板展示这些贮藏信息并且平板在扫描相关货架二位码后获得相关留样、调样、销毁等相关信息。</string>
+</resources>

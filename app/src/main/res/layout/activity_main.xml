@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rongsheng.viewtopdf.MainActivity">
+<ScrollView
+    android:id="@+id/sc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_total_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/text_string" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff"
+            ></View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:text="@string/text_string" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff"
+            ></View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/text_string" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/text_string" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:text="@string/text_string" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/text_string" />
+    </LinearLayout>
+
+</ScrollView>
+   <Button
+       android:id="@+id/bt_creat_pdf"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="生成pdf"/>
+    <Button
+        android:id="@+id/bt_jietu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="RecycleView截图"/>
+
+</LinearLayout>
