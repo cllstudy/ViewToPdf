@@ -1,6 +1,6 @@
 # ViewToPdf
 最近有个需求,客户要求在页面显示数据后,可以进行打印保存,一开始接这个需求直接就想着view生成pdf,嗯嗯,挺简单,说干就干,立即写个demo,写完demo就懵逼了,pdf生成太耗时间,生成的pdf非常大,一个在4M多,所以只要另找方法,就想到了屏幕截图,方案虽好,但是数据过多的话截得长图在pdf上只是一页,期间尝试转换pdf时进行分页,找不到好的方案,所以果断放弃该方案,最后就用itexg吧,确实符合项目要求,itexg代码在Main2Activity.java中,也是对itextG初探,难免会有不足之处,如发现,欢迎指正.
-itextpdf尝试,android系统生成pdf,截长图
+
 #### 通过系统PdfDocument将view生成pdf
 
  ![](/view.jpg)
