@@ -5,6 +5,7 @@ itextpdf尝试,android系统生成pdf,截长图
  ![](/view.jpg)
 
 该方式生成pdf太耗时,测试在30s内.
+上传项目后在测试,程序会无响应,应该是线程的问题,可以把生成pdf这块放在子线程.
 
 #### 截取RecycleView
 
